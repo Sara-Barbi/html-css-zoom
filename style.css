@@ -34,10 +34,13 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .leave{
     display: flex;
     width: 10%;
+    height: 70px;
+    align-items: center;
     justify-content: center;
     color: red;
 }
