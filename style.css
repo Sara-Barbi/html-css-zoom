@@ -21,13 +21,13 @@ nav{
 .audio-video{
     display: flex;
     color: white;
-    width: 15%;
+    width: 10%;
     justify-content: space-between;
 
 }
 .centerblock{
     display: flex;
-    width: 35%;
+    width: 48%;
     justify-content: space-between;
     color: white;
 }
