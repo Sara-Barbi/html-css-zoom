@@ -15,8 +15,9 @@ nav{
     left: 0;
     align-items: center;
     justify-content: space-between;
-    min-height: 70px;
+    min-height: 65px;
     background-color: rgb(44, 44, 44);
+    z-index: 1;
 }
 .audio-video{
     display: flex;
@@ -43,7 +44,8 @@ nav{
     height: 70px;
     align-items: center;
     justify-content: center;
-    color: red;
+    color: rgb(238, 14, 14);
+    cursor: pointer;
 }
 .leave:hover{
     background-color: rgb(69, 69, 69);
@@ -51,7 +53,7 @@ nav{
 main{
     width: 90%;
     height: 80%;
-    margin: 50px auto 0 auto;
+    margin: 0 auto;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
@@ -64,8 +66,9 @@ main{
 }
 .pinco div{
     color:white;
-    position: relative;
-    bottom: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
     width: 90px;
     left: 0px;
     font-size: 12px;
@@ -75,14 +78,16 @@ main{
 section{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     color: white;
+    height: 90px;
 }
 section div{
     margin-right: 5px;
     background-color: rgba(174, 173, 172, 0.51);
     border-radius: 5px;
     padding: 3px;
+    cursor: pointer;
 }
 section i{
     margin-right: 5px;
@@ -91,7 +96,10 @@ section i{
     padding: 3px;
 }
 
-
+.link i{
+    font-size: 25px;
+    padding: 5px;
+}
 
 
 
