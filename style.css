@@ -28,7 +28,7 @@ nav{
 }
 .centerblock{
     display: flex;
-    width: 48%;
+    width: 40%;
     justify-content: space-between;
     color: white;
 }
